@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Payment Gateway</title>
+</head>
+
+<body>
+<nav class="navbar backgroundnav h-nav-resp">
+    <ul class="nav-list v-class-resp">
+        <img src="images/logo.png" width="50">
+        <li><span>SparkFoundation</span></li>
+
+    </ul>
+    <ul class="nav-list v-class-resp rightnav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+<section class="background firstsection" style="background-image: url('images/people.jpg');">
+
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big">THE SPARK FOUNDATION</p>
+            <P class="text-small">Save the people.</P>
+            <p class="text-small">Generosity is the language of the heart, and donation is its eloquent expression. In
+                the act of giving, we transcend our individuality, spreading compassion and hope. Each donation, no
+                matter how small, possesses the power to transform lives and shape a brighter tomorrow. Let kindness be
+                our legacy.
+            </p></br></br></br>
+            <div class="buttons">
+                <form>
+                    <form>
+                        <script src="https://checkout.razorpay.com/v1/payment-button.js"
+                                data-payment_button_id="pl_M1VSfiHE82tRRI" async></script>
+                    </form>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="middle-background">
+    <section class="section" id="About">
+        <div class="thumbnail">
+            <img src="images/together.jpg" alt="logo" class="imgFluid">
+        </div>
+        <div class="paras">
+            <p class="sectionTag text-big">Together we can do much.</p>
+            <p class="sectionSubTag text-small">Donation has the power to transform lives, and its impact is magnified
+                when we come together as a collective force. Alone, our individual contributions may seem small, but
+                when combined, they create a tidal wave of positive change. Through donations, we can provide food,
+                shelter, education, and healthcare to those in need. Together, we can alleviate suffering, empower
+                communities, and foster a brighter future. Let us unite our resources and hearts, for in unity lies the
+                true potential to make a significant difference in the world.</p>
+        </div>
+
+
+    </section>
+
+    <section class="  section section.left" id="About">
+        <div class="thumbnail">
+            <img src="images/help_poor.JPG" alt="logo" class="imgFluid">
+        </div>
+        <div class="paras">
+            <p class="sectionTag text-big">Help the poor people.</p>
+            <p class="sectionSubTag text-small">Donation serves as a lifeline for helping the poor. It is a beacon of
+                hope that illuminates the lives of those in need. Through generous contributions, we extend a helping
+                hand to uplift the most vulnerable members of society, offering them a chance for a better future.
+                Donations provide essential resources like food, shelter, healthcare, education, and economic
+                opportunities, enabling individuals and families to break free from the shackles of poverty. Together,
+                through our acts of giving, we can bring about lasting change and create a more equitable world for
+                all.</p>
+        </div>
+
+    </section>
+
+    <section class="section" id="About">
+        <div class="thumbnail">
+            <img src="images/zero-hunger.jpg" alt="logo" class="imgFluid">
+        </div>
+        <div class="paras">
+            <p class="sectionTag text-big">Zero hunger can make a better world.</p>
+            <p class="sectionSubTag text-small">Donation is a vital tool in the fight against hunger, as it holds the
+                potential to create a better world. The eradication of hunger is a fundamental step towards building a
+                society where every individual can thrive. Through donations, we contribute to providing nourishment and
+                sustenance to those facing food insecurity, giving them the strength and opportunity to reach their full
+                potential. By supporting initiatives that address hunger, we foster a more equitable and compassionate
+                world, where the basic human right of access to nutritious food is upheld for all.</p>
+        </div>
+
+    </section>
+</div>
+
+<section class="contact" id="Contact">
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Name">
+                <input type="text" class="field" placeholder="Email">
+                <input type="text" class="field" placeholder="Phone">
+                <textarea placeholder="Message" class="field"></textarea>
+                <button class="btn">Send</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="index.js">
+
+</script>
+</body>
+
+</html>
